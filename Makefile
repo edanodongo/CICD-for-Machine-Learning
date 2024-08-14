@@ -5,8 +5,8 @@ install:
 format:
     black *.py
 
-train:
-	python	train.py
+format:
+    python train.py
 
 eval:
     echo "## Model Metrics" > report.md
