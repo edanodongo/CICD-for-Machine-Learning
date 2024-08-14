@@ -15,11 +15,5 @@ jobs:
       - uses: iterative/setup-cml@v2
       - name: Install dependencies 
         run: python -m pip install --upgrade pip
-      - name: Format
-        run: make format
-      - name: Train
-        run: make train
-      - name: Evaluation
-        env:
-          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: make eval
+      - name: Install Packages
+        run: make install
