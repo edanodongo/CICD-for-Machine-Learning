@@ -15,3 +15,5 @@ jobs:
       - uses: iterative/setup-cml@v2
       - name: Install dependencies 
         run: python -m pip install --upgrade pip
+      - name: Install Packages
+        run: make install
