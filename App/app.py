@@ -55,5 +55,5 @@ gr.Interface(
     title=title,
     description=description,
     article=article,
-    theme=gr.themes.Soft(),
+    theme='NoCrypt/miku',
 ).launch()
